@@ -7,6 +7,7 @@ import { motion } from "framer-motion"
 import { MdOutlineClose } from "react-icons/md";
 import { TbBrandGithub } from 'react-icons/tb';
 import { SlSocialYoutube, SlSocialFacebook, SlSocialLinkedin, SlSocialInstagram } from 'react-icons/sl';
+import {PiTiktokLogo} from "react-icons/pi";
 
 const Navbar = () => {
     const ref = useRef<string | any>("");
@@ -209,17 +210,17 @@ const Navbar = () => {
                                             initial={{ y: 20, opacity: 0 }}
                                             animate={{ x: 0, opacity: 1 }}
                                             transition={{ delay: 0.7, ease: "easeIn" }}
-                                            href='https://github.com/affsanu'
+                                            href='https://www.facebook.com/mdshahbaz88'
                                             target='_blank'>
                                             <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
-                                                <TbBrandGithub />
+                                                <SlSocialFacebook />
                                             </span>
                                         </motion.a>
                                         <motion.a
                                             initial={{ y: 20, opacity: 0 }}
                                             animate={{ x: 0, opacity: 1 }}
                                             transition={{ delay: 0.8, ease: "easeIn" }}
-                                            href='https://github.com/affsanu' target='_blank'>
+                                            href='#' target='_blank'>
                                             <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                                                 <SlSocialYoutube />
                                             </span>
@@ -228,7 +229,7 @@ const Navbar = () => {
                                             initial={{ y: 20, opacity: 0 }}
                                             animate={{ x: 0, opacity: 1 }}
                                             transition={{ delay: 0.9, ease: "easeIn" }}
-                                            href='https://github.com/affsanu' target='_blank'>
+                                            href='#' target='_blank'>
                                             <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                                                 <SlSocialLinkedin />
                                             </span>
@@ -237,16 +238,16 @@ const Navbar = () => {
                                             initial={{ y: 20, opacity: 0 }}
                                             animate={{ x: 0, opacity: 1 }}
                                             transition={{ delay: 1, ease: "easeIn" }}
-                                            href='https://github.com/affsanu' target='_blank'>
+                                            href='https://www.tiktok.com/@Shahbaj778' target='_blank'>
                                             <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
-                                                <SlSocialFacebook />
+                                                <PiTiktokLogo />
                                             </span>
                                         </motion.a>
                                         <motion.a
                                             initial={{ y: 20, opacity: 0 }}
                                             animate={{ x: 0, opacity: 1 }}
                                             transition={{ delay: 1.1, ease: "easeIn" }}
-                                            href='https://github.com/affsanu' target='_blank'>
+                                            href='https://www.instagram.com/mdshahbaz7' target='_blank'>
                                             <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                                                 <SlSocialInstagram />
                                             </span>
@@ -258,7 +259,7 @@ const Navbar = () => {
                                         transition={{ delay: 1.2, ease: "easeIn" }}
                                         className='text-sm w-72 tracking-widest text-textGreen text-center mt-4'
                                         href='mailto:sanuvipbd@gmail.com'>
-                                        <p>me@saidpurnews.com</p>
+                                        <p>me@shahbaj.com</p>
                                     </motion.a>
                                 </div>
                             </motion.div>

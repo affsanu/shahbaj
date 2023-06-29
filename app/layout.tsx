@@ -4,8 +4,8 @@ import Header from './components/Header'
 import Provider from './Provider'
 
 export const metadata = {
-  title: 'Sanu Islam',
-  description: 'Sanu Islam Portfolio',
+  title: 'Md Shahbaj',
+  description: 'Md Shahbaj Portfolio',
 }
 
 export default function RootLayout({

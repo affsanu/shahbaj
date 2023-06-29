@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react'
 import SectionTitle from './SectionTitle'
-import ReactBD from './works/ReactBD'
+import Shop from './works/Shop'
 import Google from './works/Google';
 import Apple from './works/Apple';
 import Splash from './works/Splash';
@@ -57,7 +57,7 @@ const Experience = () => {
                     <li
                         onClick={handleReactbd}
                         className={`border-l-2 ${workReactbd ? 'border-l-textGreen text-textGreen' : 'border-l-hoverColor text-textDark'} bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                        ReactBD
+                        Shop
                     </li>
                     <li
                         onClick={handleGoogle}
@@ -80,7 +80,7 @@ const Experience = () => {
                         Amazon
                     </li>
                 </ul>
-                {workReactbd && <ReactBD />}
+                {workReactbd && <Shop />}
                 {workGoogle && <Google />}
                 {WorkApple && <Apple />}
                 {workSplash && <Splash />}

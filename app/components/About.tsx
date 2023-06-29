@@ -28,15 +28,15 @@ const About = () => {
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eaque eius dicta odit voluptate eveniet, asperiores dolorum fugit nostrum, cum magnam ullam! Perferendis voluptatum alias quasi quam dolore ipsa nisi?
           </p>
-          <p>Here are a few technologies I have been working with recently:</p>
+          <p>Here are a few brands I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen"><AiFillThunderbolt /></span>
-              JavaScript (ES6+)
+              Click (PRAN-RFL)
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen"><AiFillThunderbolt /></span>
-              React
+              Vision BD (RFL Group)
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen"><AiFillThunderbolt /></span>

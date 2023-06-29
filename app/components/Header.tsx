@@ -1,8 +1,8 @@
 import Head from 'next/head';
 
 export const metadata = {
-  title: 'Sanu Islam',
-  description: 'Sanu Islam Portfolio',
+  title: 'Md Shahbaj',
+  description: 'Md Shahbaj Portfolio',
 }
 
 const Header = () => {

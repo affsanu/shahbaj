@@ -38,9 +38,9 @@ const Navbar = () => {
                         initial={{ opacity: 0 }}
                         animate={{ rotate: 360, scale: 1, opacity: 1 }}
                         transition={{ type: "spring", stiffness: 260, damping: 20, duration: 0.5 }}
-                        className='bg-textGreen rounded-full p-2'
+                        className='bg-textGreen rounded-full'
                     >
-                        <Image src={logo} alt='Logo' className='w-12' />
+                        <Image src={logo} alt='Logo' className='w-12 h-12' />
                     </motion.div>
                 </Link>
                 <div className='hidden  mdl:inline-flex items-center gap-7'>
